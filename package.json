@@ -1,0 +1,22 @@
+{
+    "name": "food-menu",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "framer-motion": "^10.12.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.0.16",
+        "vite": "^4.0.0"
+    }
+}
