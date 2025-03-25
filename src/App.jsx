@@ -1,26 +1,23 @@
-import { useState } from 'react';
-import { countries } from './data/countries';
-import CountryCard from './components/CountryCard';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { AuthProvider, useAuth } from "./contexts/AuthContext";
+import Login from "./components/Login/Login";
+import CountryMenu from "./pages/CountryMenu/CountryMenu";
+
+const PrivateRoute = ({ element }) => {
+  const { isAuthenticated } = useAuth();
+  return isAuthenticated ? element : <Navigate to="/" />;
+};
 
 export default function App() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextCountry = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % countries.length);
-  };
-
-  const prevCountry = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + countries.length) % countries.length);
-  };
-
   return (
-    <div className="container">
-      <h1>Menu de Comidas Típicas</h1>
-      <CountryCard country={countries[currentIndex]} />
-      <div className="button-container">
-        <button onClick={prevCountry}>Anterior</button>
-        <button onClick={nextCountry}>Próximo</button>
-      </div>
-    </div>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/menu" element={<PrivateRoute element={<CountryMenu />} />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
