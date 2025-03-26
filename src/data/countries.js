@@ -3,8 +3,8 @@ export const countries = [
       name: "Brasil",
       foods: [
         { name: "Feijoada", description: "Um ensopado de feijão preto com carne de porco." },
-        { name: "Pão de Queijo", description: "Pãezinhos feitos com polvilho e queijo." },
-        { name: "Brigadeiro", description: "Doce de chocolate feito com leite condensado." },
+        { name: "Moqueca", description: "A moqueca é um ensopado brasileiro de peixe ou frutos do mar, cozido lentamente com diversos temperos" },
+        { name: "Acarajé", description: "O acarajé é um bolinho frito típico da culinária baiana, feito de massa de feijão-fradinho, cebola e sal, frito em azeite de dendê." },
       ],
     },
     {
@@ -26,9 +26,9 @@ export const countries = [
     {
       name: "França",
       foods: [
-        { name: "Croissant", description: "Pão folhado amanteigado e crocante." },
         { name: "Coq au Vin", description: "Prato tradicional de frango cozido em vinho tinto com cogumelos." },
-        { name: "Crème Brûlée", description: "Sobremesa cremosa com uma crosta caramelizada." },
+        { name: "Chateaubriand", description: "O Chateaubriand é um corte alto e macio do filé-mignon." },
+        { name: "Ratatouille", description: "Ensopado francês de legumes, ozidos com azeite e ervas, colorido e aromático." },
       ],
     },
   ];
