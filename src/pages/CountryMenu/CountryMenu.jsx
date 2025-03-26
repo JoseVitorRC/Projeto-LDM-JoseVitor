@@ -10,8 +10,8 @@ const countries = [
     backgroundImage: "/assets/images/brasil.jpg",
     foods: [
       { name: "Feijoada", image: "/assets/images/feijoada.jpg" },
-      { name: "Pão de Queijo", image: "/assets/images/paodequeijo.jpg" },
-      { name: "Brigadeiro", image: "/assets/images/brigadeiro.jpg" },
+      { name: "Moqueca", image: "/assets/images/moqueca.jpg" },
+      { name: "Acarajé", image: "/assets/images/acaraje.jpg" },
     ],
   },
   {
@@ -21,6 +21,24 @@ const countries = [
       { name: "Sushi", image: "/assets/images/sushi.jpg" },
       { name: "Ramen", image: "/assets/images/ramen.jpg" },
       { name: "Tempurá", image: "/assets/images/tempura.jpg" },
+    ],
+  },
+  {
+    name: "França",
+    backgroundImage: "/assets/images/franca.jpg",
+    foods: [
+      { name: "Coq au Vin", image: "/assets/images/coqauvin.jpg" },
+      { name: "Chateaubriand", image: "/assets/images/chatea.jpg" },
+      { name: "Ratatouille", image: "/assets/images/ratatouille.jpg" },
+    ],
+  },
+  {
+    name: "Itália",
+    backgroundImage: "/assets/images/franca.jpg",
+    foods: [
+      { name: "Pizza Margherita", image: "/assets/images/pizza.jpg" },
+      { name: "Pasta Carbonara", image: "/assets/images/carbonara.jpg" },
+      { name: "Tiramisu", image: "/assets/images/tiramisu.jpg" },
     ],
   },
 ];
