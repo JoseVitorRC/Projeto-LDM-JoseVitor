@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: darkgrey;
+  background: linear-gradient(50deg, #f0e0e0, #e7e7e7);
   margin: 0;
   padding: 0;
   display: flex;
@@ -70,7 +70,7 @@ button:hover {
   width: 115%;
   height: 400px;
   border-radius: 12%;
-  background: linear-gradient(45deg, #000045, #4e4eaf);
+  background: linear-gradient(35deg, #FF8C42, #FFC107);
 }
 
 /* Estilo para a caixa de login */
