@@ -10,5 +10,5 @@ export default function LogoutButton({ logout }) {
     navigate("/");
   };
 
-  return <button className="logout-button" onClick={handleLogout}>🚪 Logout</button>;
+  return <button className="logout-button" onClick={handleLogout}>🚪 Sair</button>;
 }
