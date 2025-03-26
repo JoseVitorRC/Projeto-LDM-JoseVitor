@@ -6,8 +6,7 @@ Bem-vindo ao **Menu de Comidas Típicas**! Este é um projeto simples feito com 
 
 - **React**: Biblioteca para construção de interfaces de usuário 🔥
 - **Vite**: Ferramenta de build rápida e eficiente ⚡
-- **Framer Motion**: Animações fluidas para o React 🎞️
-- **CSS Puro** 🧑‍💻
+- **Framer Motion**: Animações fluidas para o React 🎞️ 
 
 ## 💡 Funcionalidades
 
