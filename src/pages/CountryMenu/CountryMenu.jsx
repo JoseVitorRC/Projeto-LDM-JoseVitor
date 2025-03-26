@@ -15,13 +15,17 @@ import ratatouille from "../../assets/images/ratatouille.jpg"
 import pizza from "../../assets/images/pizza.jpg"
 import carbonara from "../../assets/images/carbonara.jpg"
 import tiramisu from "../../assets/images/tiramisu.jpg"
+import brasil from "../../assets/images/brasil.jpg"
+import japao from "../../assets/images/japao.jpg"
+import italia from "../../assets/images/italia.jpg"
+import franca from "../../assets/images/franca.jpg"
 
 import "./CountryMenu.css";
 
 const countries = [
   {
     name: "Brasil",
-    backgroundImage: "/assets/images/brasil.jpg",
+    backgroundImage: brasil ,
     foods: [
       { name: "Feijoada", image: feijoada },
       { name: "Moqueca", image: moqueca },
@@ -30,7 +34,7 @@ const countries = [
   },
   {
     name: "Japão",
-    backgroundImage: "/assets/images/japao.jpg",
+    backgroundImage: japao,
     foods: [
       { name: "Sushi", image: sushi },
       { name: "Ramen", image: ramen },
@@ -39,7 +43,7 @@ const countries = [
   },
   {
     name: "França",
-    backgroundImage: "/assets/images/franca.jpg",
+    backgroundImage: franca,
     foods: [
       { name: "Coq au Vin", image: coqauvin },
       { name: "Chateaubriand", image: chatea },
@@ -48,7 +52,7 @@ const countries = [
   },
   {
     name: "Itália",
-    backgroundImage: "/assets/images/franca.jpg",
+    backgroundImage: italia,
     foods: [
       { name: "Pizza Margherita", image: pizza },
       { name: "Pasta Carbonara", image: carbonara },
