@@ -18,7 +18,7 @@ export default function Login() {
 
   return (
     <div className="login-container">
-      <h1>🍽️ Bem-vindo ao Menu Mundial</h1>
+      <h1>🍽️ Bem-vindo ao Menuu</h1>
       <form onSubmit={handleLogin}>
         <input
           type="text"
