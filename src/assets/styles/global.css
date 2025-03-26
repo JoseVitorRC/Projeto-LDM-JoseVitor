@@ -62,7 +62,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Estilo para o container principal da página de login */
 .login-container {
   display: flex;
   justify-content: center;
@@ -73,7 +72,6 @@ button:hover {
   background: linear-gradient(35deg, #FF8C42, #FFC107);
 }
 
-/* Estilo para a caixa de login */
 .login-box {
   background: white;
   padding: 2rem;
@@ -84,24 +82,20 @@ button:hover {
   width: 100%;
 }
 
-/* Estilo para o título */
 .login-box h2 {
   margin-bottom: 10px;
   color: #333;
 }
 
-/* Estilo para o parágrafo */
 .login-box p {
   color: #666;
 }
 
-/* Estilo para o formulário */
 .login-box form {
   display: flex;
   flex-direction: column;
 }
 
-/* Estilo para os campos de entrada */
 .login-box input {
   width: 100%;
   padding: 10px;
@@ -111,7 +105,6 @@ button:hover {
   font-size: 16px;
 }
 
-/* Estilo para o botão de envio */
 .login-box button {
   background: #ff7e5f;
   color: white;
